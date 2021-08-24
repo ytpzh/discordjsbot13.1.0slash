@@ -33,8 +33,14 @@ const rest = new REST({ version: '9' }).setToken(token);
 
         await rest.put(
             Routes.applicationGuildCommands(client_id, guild_id),
+            /*
+            By default, the slash commands are in Guild mode. 
+            To have the global slash commands, just replace
+            " Routes.applicationGuildCommands(client_id, guild_id), "
+            with
+            " Routes.applicationCommands(client_id) "
+            */
             { body: cmds },
-            // global commands ~ Routes.applicationCommands(client_id)
         );
 
         console.log('Slash commands successfully deployed !');
