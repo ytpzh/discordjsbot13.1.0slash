@@ -16,7 +16,7 @@ module.exports = {
     
     async execute(interaction) {
         
-        await interaction.reply(interaction.options.getString('choice'));
+        await interaction.reply(interaction.options.getString('choice_reply'));
         
     },
     
