@@ -41,7 +41,11 @@ npm i -g pm2
   "client_id":"ENTER THE CLIENT ID HERE"
 }
 ```
-2. Run the bot on a command prompt with
+2. To reload or deploy a slash command, run the file `commands.js` before running the index.js file.
+```JS
+node commands
+```
+3. Run the bot on a command prompt with
 ```bash
 pm2 start index.js
 ```
