@@ -1,8 +1,7 @@
 # Discord.JS 13.1.0 Bot (Slash Commands)
 This is a Demo Bot of Discord JS v13.1.0 . You can adjust or edit the bot as you want.
 ### Prerequisites
-Install [Node 16 (or newer)](https://nodejs.org/en/) and [Git](https://git-scm.com/download/)
-
+Install <a href="https://nodejs.org/en/" target="_blank">Node v16 (or newer)</a> and <a href="https://git-scm.com/download/" target="_blank">Git</a>
 ### Installation
 1. Clone the repo with git
 ```bash
