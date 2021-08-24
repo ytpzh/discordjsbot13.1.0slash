@@ -1,5 +1,5 @@
 {
-  "token": "bot token",
-  "client_id": "client id",
-  "guild_id": "guild id"
+  "token": "ENTER YOUT BOT TOKEN HERE",
+  "guild_id":"ENTER YOUR GUILD ID HERE",
+  "client_id": "ENTER THE CLIENT ID HERE"
 }
