@@ -27,7 +27,7 @@ npm i discord.js
 ```bash
 npm i @discordjs/builders @discordjs/rest discord-api-types
 ```
-6. (Optional) Install PM2 module
+6. (Optional) Install pm2 module
 ```bash
 npm i -g pm2
 ```
@@ -45,7 +45,7 @@ npm i -g pm2
 ```bash
 pm2 start index.js
 ```
-Or, if you don't have the PM2 module, type this in the command prompt
+Or, if you don't have the pm2 module, type this in the command prompt
 ```bash
 node index
 ```
