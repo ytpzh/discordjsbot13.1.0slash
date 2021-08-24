@@ -1,6 +1,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 
 module.exports = {
+    
     data: new SlashCommandBuilder()
         .setName('choice')
         .setDescription('Choice command')
@@ -12,7 +13,10 @@ module.exports = {
             .addChoice('Banana', 'This is a banana :banana:')
             .addChoice('Peach', 'This is a peach :peach:')
             .addChoice('PZH', `PZH ??? That's not a fruit, but my creator ! :star_struck:`)),
+    
     async execute(interaction) {
+        
         await interaction.reply(interaction.options.getString('choice'));
+        
     },
 };
