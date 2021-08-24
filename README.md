@@ -45,7 +45,7 @@ npm i -g pm2
 ```JS
 node commands
 ```
-3. Run the bot on a command prompt with
+3. Run the bot on a command prompt with pm2
 ```bash
 pm2 start index.js
 ```
