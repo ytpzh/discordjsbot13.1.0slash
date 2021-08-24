@@ -41,7 +41,7 @@ npm i -g pm2
   "client_id":"ENTER THE CLIENT ID HERE"
 }
 ```
-2. To reload or deploy a slash command, run the file `commands.js` before running the index.js file.
+2. To reload or deploy slash commands, run the file `commands.js`.
 ```JS
 node commands
 ```
