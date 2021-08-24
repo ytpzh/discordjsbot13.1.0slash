@@ -49,7 +49,7 @@ node commands
 ```bash
 pm2 start index.js
 ```
-Or, if you don't have the pm2 module, type this in the command prompt
+Or, if you don't have the pm2 module, run the `index.js` file with node directly.
 ```bash
 node index
 ```
