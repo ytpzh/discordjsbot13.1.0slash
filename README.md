@@ -20,7 +20,7 @@ npm init
 
 4. Install discord.js
 ```bash
-npm i discord.js
+npm i discord.js@latest
 ```
 
 5. Install modules for discord.js
