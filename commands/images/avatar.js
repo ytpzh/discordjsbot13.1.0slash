@@ -4,7 +4,7 @@ module.exports = {
   
     data: new SlashCommandBuilder()
         .setName('avatar')
-        .setDescription('Show avatar of a user')
+        .setDescription('Display avatar of a user')
         .addUserOption(option => option.setName('user').setDescription('Enter user')),
 
     async execute(interaction) {
