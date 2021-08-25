@@ -26,7 +26,7 @@ npm i discord.js@latest
 
 5. Install modules for discord.js
 ```bash
-npm i @discordjs/builders @discordjs/rest discord-api-types superagent
+npm i @discordjs/builders @discordjs/rest discord-api-types fs superagent
 ```
 6. (Optional) Install pm2 module
 ```bash
