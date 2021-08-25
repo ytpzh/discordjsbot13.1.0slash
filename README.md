@@ -54,3 +54,12 @@ Or, if you don't have the pm2 module, run the `index.js` file with node directly
 ```bash
 node index
 ```
+
+## FREQUENT QUESTIONS
+
+#### - My slash commands don't appear on Discord...
+> Just run the `commands.js` file, and retry.
+> Check for any errors in your command files.
+
+## Your problem is not listed ?
+> Just contact me on Discord: **PZH#0666** , or send me a mail at contact@pzh.fr
