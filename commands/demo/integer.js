@@ -9,11 +9,11 @@ module.exports = {
 
     async execute(interaction) {
 
-        let result = interaction.options.getInteger('integer')
+        let result = interaction.options.getInteger('integer');
 
-        if((result) < 0 || (result) > 5 ) return interaction.reply(`Choose a number between 0 and 5.`)
+        if((result) < 0 || (result) > 5 ) return interaction.reply(`Choose a number between 0 and 5.`);
 
-        let roll = Math.floor(Math.random() * 6)
+        let roll = Math.floor(Math.random() * 6);
 
         if(roll === result) {
             await interaction.reply(`We choose the same number !! The number **${roll}**`);
@@ -21,7 +21,7 @@ module.exports = {
         } else {
             await interaction.reply(`We don't choose the same number. :\( You choose **${result}** and me **${roll}**.`);
 
-        }
+        };
 
     },
 
