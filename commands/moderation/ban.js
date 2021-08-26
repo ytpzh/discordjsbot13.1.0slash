@@ -12,7 +12,9 @@ module.exports = {
 
         const user = interaction.options.getMember('user');
         const reason = interaction.options.getString('reason');
-
+        
+        if(!user) return interaction.reply({content: `Can't find this user.`, ephemeral: true});
+        
         const userRoleRawPos = user.roles.highest.rawPosition;
         const memberRoleRawPos = interaction.member.roles.highest.rawPosition;
 
