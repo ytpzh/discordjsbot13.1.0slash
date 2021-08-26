@@ -20,7 +20,6 @@ module.exports = {
 
         if(!interaction.member.permissions.has("KICK_MEMBERS")) return interaction.reply({content: `You don't have the permission \`KICK_MEMBERS\` to do this command.`, ephemeral: true});
 
-
         if(user.user.id === interaction.user.id) return interaction.reply({content: `You can't kick yourself !`, ephemeral: true});
 
         if(userRoleRawPos >= memberRoleRawPos) return interaction.reply({content: `You can't kick this user.`, ephemeral: true});
