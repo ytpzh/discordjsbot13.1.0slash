@@ -5,7 +5,7 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('unban')
         .setDescription('Unban a user !')
-        .addStringOption(option => option.setName('user').setDescription('ID/TAG/Username of user to unban.').setRequired(true)),
+        .addStringOption(option => option.setName('user').setDescription('Enter the ID / Username / Tag of user to unban.').setRequired(true)),
 
     async execute(interaction) {
 
