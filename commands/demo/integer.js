@@ -11,7 +11,7 @@ module.exports = {
 
         let result = interaction.options.getInteger('integer');
 
-        if((result) < 0 || (result) > 5 ) return interaction.reply(`Choose a number between 0 and 5.`);
+        if((result) < 0 || (result) > 5 ) return interaction.reply({content: `Choose a number between 0 and 5.`, ephemeral: true});
 
         let roll = Math.floor(Math.random() * 6);
 
