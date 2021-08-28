@@ -36,7 +36,7 @@ module.exports = {
 
             if (choice === rep[2]) {
 
-                await interaction.reply(`Me: ${rep[result]}\nYou: ${choice}\n**You loose** !`);
+                await interaction.reply(`Me: ${rep[result]}\nYou: ${choice}\n**You lose** !`);
 
             }
 
@@ -50,7 +50,7 @@ module.exports = {
 
             if (choice === rep[0]) {
 
-                await interaction.reply(`Me: ${rep[result]}\nYou: ${choice}\n**You loose**...`);
+                await interaction.reply(`Me: ${rep[result]}\nYou: ${choice}\n**You lose**...`);
 
             }
 
@@ -58,7 +58,7 @@ module.exports = {
 
             if (choice === rep[1]) {
 
-                await interaction.reply(`Me: ${rep[result]}\nYou: ${choice}\n**You loose** !`);
+                await interaction.reply(`Me: ${rep[result]}\nYou: ${choice}\n**You lose** !`);
 
             }
 
