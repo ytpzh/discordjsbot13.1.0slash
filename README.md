@@ -62,4 +62,4 @@ node index
 > Check for any errors in your command files.
 
 ## Your problem is not listed ?
-> Just contact me on Discord: **Unknown Ledge#0001** , or send me a mail at contact@pzh.fr
+> Just contact me on Discord: **ShiftyDawn57#0430** , or send me a mail at contact@pzh.fr
